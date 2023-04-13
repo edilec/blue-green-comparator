@@ -1,13 +1,15 @@
 {
   "name": "blue-green-comparator",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Compare blue-green environments for configuration, version and schema parity.",
   "type": "module",
   "engines": {
     "node": ">=22"
   },
   "scripts": {
-    "test": "node --test"
+    "lint": "node --check bin/blue-green-comparator.mjs && node --check src/index.mjs",
+    "test": "node --test",
+    "check": "npm run lint && npm test"
   },
   "license": "MIT",
   "repository": {
