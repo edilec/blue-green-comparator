@@ -1,0 +1,1 @@
+{"schemaVersion":"1","complete":true,"slotId":"blue","artifactVersion":"1.2.3","configSchema":"v2","databaseSchema":"schema-1","dependencies":[{"name":"cache","version":"1.0.0"}],"migrations":[{"id":"001","checksum":"abc"}]}

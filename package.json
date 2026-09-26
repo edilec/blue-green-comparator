@@ -1,0 +1,19 @@
+{
+  "name": "blue-green-comparator",
+  "version": "1.0.0",
+  "description": "Compare blue-green environments for configuration, version and schema parity.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "lint": "node --check bin/blue-green-comparator.mjs && node --check src/index.mjs",
+    "test": "node --test",
+    "check": "npm run lint && npm test"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edilec/blue-green-comparator"
+  }
+}
